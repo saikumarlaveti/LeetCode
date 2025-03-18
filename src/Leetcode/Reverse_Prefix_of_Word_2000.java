@@ -1,4 +1,4 @@
-package Strings;
+package Leetcode;
 public class Reverse_Prefix_of_Word_2000 {
 
 

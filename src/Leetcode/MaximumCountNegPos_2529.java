@@ -1,7 +1,4 @@
-package Strings;
-
-import java.util.Arrays;
-import java.util.List;
+package Leetcode;
 
 public  class MaximumCountNegPos_2529 {
     public  int maximumCount(int[] nums) {

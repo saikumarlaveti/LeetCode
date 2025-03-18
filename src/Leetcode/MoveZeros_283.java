@@ -1,4 +1,4 @@
-package Strings;
+package Leetcode;
 
 import java.util.Arrays;
 import java.util.function.Consumer;

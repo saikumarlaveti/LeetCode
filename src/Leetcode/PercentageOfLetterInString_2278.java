@@ -1,4 +1,4 @@
-package Strings;
+package Leetcode;
 
 public class PercentageOfLetterInString_2278 {
     public int percentageLetter(String s, char letter) {
