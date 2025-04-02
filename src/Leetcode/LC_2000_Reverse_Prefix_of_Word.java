@@ -1,5 +1,5 @@
 package Leetcode;
-public class Reverse_Prefix_of_Word_2000 {
+public class LC_2000_Reverse_Prefix_of_Word {
 
 
     public String reversePrefix(String word, char ch) {
@@ -28,7 +28,7 @@ return new String(wordArr);
         }
 
     public static void main(String[] args) {
-        Reverse_Prefix_of_Word_2000 rp = new Reverse_Prefix_of_Word_2000();
+        LC_2000_Reverse_Prefix_of_Word rp = new LC_2000_Reverse_Prefix_of_Word();
         String word = rp.reversePrefix("saikumar",'i');
         System.out.println(word);
         System.out.println(rp.reversePrefix("saikumar",'k'));

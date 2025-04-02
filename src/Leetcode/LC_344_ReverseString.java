@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class ReverseString_344 {
+public class LC_344_ReverseString {
         public void reverseString(char[] s) {
             int left = 0;
             int right = s.length-1;
@@ -15,7 +15,7 @@ public class ReverseString_344 {
         }
 
     public static void main(String[] args) {
-        ReverseString_344 rs = new ReverseString_344();
+        LC_344_ReverseString rs = new LC_344_ReverseString();
         char[] s = {'h','e','l','l','o'};
         rs.reverseString(s);
     }

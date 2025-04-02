@@ -3,7 +3,7 @@ package Leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
-public class FirstLetterToAppearTwice2351 {
+public class LC_2351_FirstLetterToAppearTwice {
     public char repeatedCharacter(String s) {
         Set<Character> set = new HashSet<>();
 
@@ -17,7 +17,7 @@ public class FirstLetterToAppearTwice2351 {
         return '0';
     }
     public static void main(String[] args) {
-        FirstLetterToAppearTwice2351 d = new FirstLetterToAppearTwice2351();
+        LC_2351_FirstLetterToAppearTwice d = new LC_2351_FirstLetterToAppearTwice();
         String name = "abcbacz";
         System.out.println(d.repeatedCharacter(name));
     }

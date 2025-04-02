@@ -3,7 +3,7 @@ package Leetcode;
 import java.util.Arrays;
 import java.util.function.Consumer;
 
-public class MoveZeros_283 {
+public class LC_283_MoveZeros {
 
         public void moveZeroes(int[] nums) {
             int nonZero = 0;
@@ -18,7 +18,7 @@ public class MoveZeros_283 {
         }
 
     public static void main(String[] args) {
-        MoveZeros_283 mz = new MoveZeros_283();
+        LC_283_MoveZeros mz = new LC_283_MoveZeros();
         Consumer<int[]> print = i->System.out.print(Arrays.toString(i)+ " ");
         int[] arr = {0,1,0,3,12};
         print.accept(arr);
