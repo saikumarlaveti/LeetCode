@@ -1,4 +1,4 @@
-package LeetcodeConcepts;
+package LeetcodeConcepts.BitwiseOperators;
 
 public class BinaryAND {
     public static void main(String[] args) {
