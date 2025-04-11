@@ -1,6 +1,6 @@
 ### IntelliJ IDEA ###
 LC_53_MaximumSubArray.java
- LC_1009_ComplementOfBase10.java
+LC_1009_ComplementOfBase10.java
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
