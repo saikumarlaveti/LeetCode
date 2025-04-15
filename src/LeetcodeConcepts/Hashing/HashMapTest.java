@@ -32,8 +32,8 @@ public class HashMapTest {
         Set<String> key = clothes.keySet();
         System.out.println(key);
 
-        for(String k :key){
-            System.out.println(k +",Values " + clothes.get(k));
-        }
+            for(String k :key){
+                System.out.println(k +",Values " + clothes.get(k));
+            }
     }
 }
