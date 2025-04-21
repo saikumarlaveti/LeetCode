@@ -1,9 +1,5 @@
 package Leetcode;
 
-import com.sun.security.jgss.GSSUtil;
-
-import java.util.Arrays;
-
 public class LC_557_ReverserWords {
     public static String reverseWords(String s) {
         String[] words = s.split(" ");
@@ -17,7 +13,7 @@ public class LC_557_ReverserWords {
         return result.toString().trim(); // remove the trailing space
     }
     public static void main(String[] args) {
-    String name = "Let's take LeetCode contest";
+    String name = "Let's take LeetCode contest";  //s'teL ekat edoCteeL tsetnoc
         System.out.println(reverseWords(name));
 
     }
