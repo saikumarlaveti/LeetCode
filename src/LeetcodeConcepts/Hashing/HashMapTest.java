@@ -35,5 +35,15 @@ public class HashMapTest {
             for(String k :key){
                 System.out.println(k +",Values " + clothes.get(k));
             }
+
+
+            //example 2
+        HashMap<Integer,Integer> result = new HashMap<>();
+            result.put(1,100);
+            result.put(2,200);
+            result.put(3,300);
+            result.put(4,400);
+
+        System.out.println(result.get(3));
     }
 }
