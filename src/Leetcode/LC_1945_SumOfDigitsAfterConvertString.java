@@ -28,8 +28,8 @@ public class LC_1945_SumOfDigitsAfterConvertString {
     }
 
     public static void main(String[] args) {
-        System.out.println(getLucky("iiii",1));
-        System.out.println(getLucky("zbax",2));
-        System.out.println(getLucky("leetcode",2));
+        System.out.println(getLucky("iiii",1));  // 36
+        System.out.println(getLucky("zbax",2)); //8
+        System.out.println(getLucky("leetcode",2)); //6
     }
 }
